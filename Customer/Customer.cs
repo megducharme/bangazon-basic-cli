@@ -9,6 +9,7 @@ namespace Bangazon.Customers
 
     public void greet() 
     {
+      //VOID MEANS NO RETURN
       Console.WriteLine($"Welcome {this.firstName} {this.lastName}!");
     }
   }
