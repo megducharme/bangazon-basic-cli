@@ -26,6 +26,7 @@ namespace Bangazon
 
             // Create a payment
             Payment payment = null;
+            //declare the variable once and then set the variable to a new instance of that 
             string mainEmailAddress = "steve@stevebrownlee.com";
 
             // Depending on the value of the last argument, assign

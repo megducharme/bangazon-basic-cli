@@ -32,6 +32,7 @@ namespace Bangazon.Orders
       string output = "";
 
       foreach (string product in _products)
+      //iterating over items in a collection as opposed to an array - there is a guarentee of order - dictionary - unordered
       {
         output += $"\nYou ordered {product}";
       }
