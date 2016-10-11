@@ -5,9 +5,7 @@ namespace Bangazon.Payments
 {
   public class Payment {
     public double amount { get; set; }
-
     private Order _order = null;
-
     public Order order
     {
       get {
